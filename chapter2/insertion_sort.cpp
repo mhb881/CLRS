@@ -35,7 +35,9 @@ void insertionSort(vector<int>& a, int n)
 
 int main()
 {
-    vector<int> v = generateVector(11);
+    int size;
+    cin >> size;
+    vector<int> v = generateVector(size + 1);
     for (int i = 1; i < v.size(); i++)
     {
         cout << v[i] << " ";
